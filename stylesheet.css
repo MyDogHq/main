@@ -10,7 +10,7 @@ body, html {
   .hero {
     position: relative;
     height: 100vh;
-    background: url('./images/James\ laying\ in\ sun\ at\ manito.jpeg') no-repeat center center/cover;
+    background: url('./images/yellow\ sam.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
