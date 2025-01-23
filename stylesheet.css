@@ -9,8 +9,8 @@ body, html {
   /* Hero Section */
   .hero {
     position: relative;
-    height: 100vh;
-    background: url('./images/yello\ sam\ 3.png') no-repeat center center/cover;
+    height: 85vh;
+    background: url('./images/yello\ sam\ 3\ no\ words.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,37 +61,4 @@ body, html {
     background: #ff4a4a;
   }
   
-  @media (max-width: 768px) {
-    .hero {
-      background-position: center top; /* Adjust focal point for smaller screens */
-    }
-  
-    .hero-content h1 {
-      font-size: 2rem; /* Adjust text size */
-    }
-  
-    .hero-content p {
-      font-size: 1rem;
-    }
-  }
-  
-  /* Very small screens (mobile phones) */
-  @media (max-width: 480px) {
-    .hero {
-      background-position: center top;
-      height: 80vh; /* Slightly shorter hero for small devices */
-    }
-  
-    .hero-content h1 {
-      font-size: 1.8rem;
-    }
-  
-    .hero-content p {
-      font-size: 0.9rem;
-    }
-  
-    .btn {
-      font-size: 0.9rem;
-      padding: 8px 16px;
-    }
-  }
+ 
