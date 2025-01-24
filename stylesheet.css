@@ -121,13 +121,10 @@ body, html {
 
 
   /* General Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  overflow-x: hidden;
-}
+
 
 .hero-carousel {
+  margin-top: 5rem;
   position: relative;
   width: 100%;
   height: 60vh; /* Adjust height for responsiveness */
