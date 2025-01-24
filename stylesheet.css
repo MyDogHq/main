@@ -118,3 +118,112 @@ body, html {
       padding: 8px 16px;
     }
   }
+
+
+  /* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-carousel {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Adjust height for responsiveness */
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits all screen sizes */
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.carousel-caption h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  margin: 10px 0 0;
+}
+
+/* Navigation Buttons */
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background-color: #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-carousel {
+    height: 50vh; /* Adjust for smaller screens */
+  }
+
+  .carousel-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-carousel {
+    height: 40vh; /* Further adjustment for mobile screens */
+  }
+
+  .carousel-caption {
+    font-size: 0.8rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.2rem;
+  }
+}
