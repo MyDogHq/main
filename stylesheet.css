@@ -94,22 +94,22 @@ body, html {
   /* Very small screens (mobile phones) */
   @media (max-width: 480px) {
     .hero {
-      background-position: center top;
+      margin-left: -10rem;
       height: 80vh; /* Slightly shorter hero for small devices */
     }
   
     .hero-content h1 {
-    font-size: 3rem;
-    margin-left: -3rem;
-    margin-top: -15rem;
-    margin-bottom: 10px;
+      font-size: 3rem;
+      margin-left: 6rem;
+      margin-top: -15rem;
+      margin-bottom: 10px;
     }
   
     .hero-content p {
       font-size: 1rem;
       margin-bottom: 20px;
       background: black;
-      margin-left: -3rem;
+      margin-left: 6rem;
       padding: 8px;
     }
   
