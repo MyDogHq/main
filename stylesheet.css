@@ -127,7 +127,7 @@ body, html {
   margin-top: 5rem;
   position: relative;
   width: 100%;
-  height: 60vh; /* Adjust height for responsiveness */
+  /*height: 60vh;  Adjust height for responsiveness */
   overflow: hidden;
   margin-bottom: 10rem;
 }
