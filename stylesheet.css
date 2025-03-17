@@ -138,7 +138,8 @@ body, html {
 }
 
 .carousel-slide {
-  min-width: 100%;
+  min-width: 100vw;
+  max-height: 80vh;
   position: relative;
 }
 

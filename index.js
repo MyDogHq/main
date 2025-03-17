@@ -6,7 +6,7 @@ const carouselContainer = document.querySelector('.carousel-container');
 
 let currentSlide = 0;
 let autoSlideInterval;
-const autoSlideTime = 5000; // 5 seconds
+const autoSlideTime = 10000; // 5 seconds
 
 // Function to show the current slide
 function showSlide(index) {
