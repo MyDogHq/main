@@ -9,6 +9,15 @@
     padding: 5rem;
     margin-bottom: 2rem;
   }
+
+  .blurred-text {
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background for visibility */
+    backdrop-filter: blur(8px); /* Adjust the blur level */
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2; /* Ensures the text stays above the image */
+  }
   
   .bg-image::before {
     content: "";
