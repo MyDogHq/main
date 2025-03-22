@@ -1,0 +1,28 @@
+.bg-image {
+    background-image: url('./images/products\ we\ love\ home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Text color adjustment for better visibility */
+    position: relative;
+    overflow: hidden;
+    padding: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+    z-index: 1;
+  }
+  
+  .bg-image .container-fluid {
+    position: relative;
+    z-index: 2; /* Ensures text appears above overlay */
+  }
+  
