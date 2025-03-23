@@ -33,7 +33,7 @@ body {
 
 
 .header {
-    background-color: #ff6b6b;
+    background-color: #0ac304;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -85,7 +85,7 @@ body {
 
 .content h2 {
     font-size: 1.8rem;
-    color: #ff6b6b;
+    color: #0ac304;
     margin-bottom: 0.8rem;
     font-weight: 700;
 }
@@ -108,7 +108,7 @@ body {
 }
 
 .read-more:hover {
-    background-color: #ff6b6b;
+    background-color: #0ac304;
 }
 
 .footer {
