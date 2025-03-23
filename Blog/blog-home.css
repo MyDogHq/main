@@ -1,10 +1,24 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
+
+.blog-post {
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
 
 .header {
     background-color: #ff6b6b;
