@@ -9,6 +9,18 @@ body {
     align-items: center;
 }
 
+.hero {
+    position: relative;
+    height: 85vh;
+    background: url('../images/blog\ home.png') no-repeat center center/cover;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    /*text-align: center;*/
+    color: #fff;
+  }
+
+
 .blog-post {
     max-width: 800px;
     background: #fff;
